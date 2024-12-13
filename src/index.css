@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-cream text-brown-dark;
+  }
+}
+
+@layer components {
+  .section-title {
+    @apply text-3xl md:text-4xl font-bold mb-6 text-brown-primary;
+  }
+  
+  .nav-link {
+    @apply text-brown-dark hover:text-brown-primary transition-colors duration-300;
+  }
+  
+  .project-card {
+    @apply bg-white rounded-lg shadow-md p-6 transition-transform duration-300 hover:-translate-y-2;
+  }
+  
+  .skill-item {
+    @apply bg-white rounded-full px-4 py-2 text-brown-primary border border-brown-light;
+  }
+}
