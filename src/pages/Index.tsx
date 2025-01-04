@@ -72,12 +72,12 @@ const Index = () => {
 				id='home'
 				className={`pt-60 pb-52 transition-opacity duration-1000 ${
 					isVisible ? 'opacity-100' : 'opacity-0'
-				}`}
+				} bg-brown-light/15`}
 			>
 				<div className='container mx-auto px-6'>
 					<div className='flex flex-col-reverse md:flex-row items-center justify-between gap-12'>
 						<div className='relative'>
-							<div className='absolute inset-0 bg-brown-light/20 rounded-blob transform -rotate-6'></div>
+							<div className='absolute inset-0 bg-white rounded-blob transform -rotate-6'></div>
 							<div className='relative w-80 h-80 md:w-80 md:h-80 rounded-blob overflow-hidden'>
 								<img
 									src='/dangdang_pic.png'
@@ -132,7 +132,7 @@ const Index = () => {
 			</section>
 
 			{/* Projects Section */}
-			<section id='projects' className='py-36'>
+			<section id='projects' className='py-36 bg-brown-light/15'>
 				<div className='container mx-auto px-6'>
 					<h2 className='section-title text-center mb-8'>My Projects</h2>
 					<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
@@ -183,7 +183,7 @@ const Index = () => {
 			</section>
 
 			{/* Contact Section */}
-			<section id='contact' className='py-20'>
+			<section id='contact' className='py-20 bg-brown-light/15'>
 				<div className='container mx-auto px-6'>
 					<h2 className='section-title text-center'>Get in Touch</h2>
 					<div className='max-w-xl mx-auto space-y-4'>
@@ -235,8 +235,8 @@ const Index = () => {
 				</div>
 			</section>
 
-			{/* Tiil */}
-			<footer className='bg-white py-8'>
+			{/* Footer */}
+			<footer className='bg-brown-light/15 py-8'>
 				<div className='container mx-auto px-6 text-center text-brown-dark/80'>
 					<p>&copy; 2024 Jayciel. All rights reserved.</p>
 				</div>
